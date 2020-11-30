@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         SimpleWebViewClientImpl webViewClient = new SimpleWebViewClientImpl(this);
         webView.setWebViewClient(webViewClient);
-        webView.loadUrl("https://www.reddit.com/top/");
+        webView.loadUrl("https://newsapi.org/");
 
     }
 

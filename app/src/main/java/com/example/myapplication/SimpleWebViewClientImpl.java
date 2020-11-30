@@ -17,7 +17,7 @@ public class SimpleWebViewClientImpl extends WebViewClient {
     }
 
     public boolean shouldOverrideUrlLoading(WebView webView, String url) {
-        if (url.contains("https://www.reddit.com/top/")) {
+        if (url.contains("https://newsapi.org/")) {
             return false;
         }
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
